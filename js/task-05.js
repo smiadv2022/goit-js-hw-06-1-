@@ -1,7 +1,7 @@
 const refs ={
   input: document.querySelector('[id="name-input"'),
   output: document.querySelector('[id="name-output"'),
-  // textSpan: document.querySelector('span'),
+ 
 };
 refs.input.addEventListener('input', inputChange);
 function inputChange (event) {
